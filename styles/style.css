@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd;
+  font-family: "Roboto";
+}
+
+button {
+  border: none;
+  padding: 2px 4px;
+  background-color: #dddddd;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.random-name-generator-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.random-name-generator-container .name-list {
+  overflow: auto;
+  width: 20%;
+  min-width: 200px;
+  background-color: darkblue;
+  color: #dddddd;
+}
+.random-name-generator-container .name-list .loading-names {
+  text-align: center;
+}
+.random-name-generator-container .name-list .name-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 20pt;
+}
+.random-name-generator-container .name-list .name-wrapper .name-text {
+  text-align: center;
+  margin: 0;
+}
+.random-name-generator-container .name-list .name-wrapper .selected {
+  color: skyblue;
+}
+.random-name-generator-container .name-list .name-wrapper .weight-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+.random-name-generator-container .name-list .name-wrapper .weight-wrapper .weight-btn {
+  align-content: center;
+  width: 24px;
+  height: 24px;
+  color: blue;
+  border-radius: 3px;
+}
+.random-name-generator-container .name-list .name-wrapper .weight-wrapper .weight-btn:hover {
+  background-color: #bbbbbb;
+}
+.random-name-generator-container .name-list .name-wrapper .weight-wrapper .weight-btn i {
+  align-self: center;
+}
+.random-name-generator-container .name-list .name-wrapper .weight-wrapper .weight-text {
+  margin: 10px 0px;
+}
+.random-name-generator-container .random-name-menu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.random-name-generator-container .random-name-menu .choose-name-btn {
+  font-size: 30pt;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #bbbbbb;
+}
+.random-name-generator-container .random-name-menu .choose-name-btn:hover {
+  background-color: gray;
+}
+.random-name-generator-container .random-name-menu .selected-name {
+  font-size: 40pt;
+  height: 1.5em;
+  margin-bottom: 0;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

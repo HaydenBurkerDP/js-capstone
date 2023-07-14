@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b4abdf8cf9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <template>
+      <div class="name-wrapper">
+        <p class="name-text">Name</p>
+        <div class="weight-wrapper">
+          <button class="weight-btn">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <p class="weight-text">Weight</p>
+          <button class="weight-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </template>
+
+    <div class="random-name-generator-container">
+      <div class="name-list"></div>
+      <div class="random-name-menu">
+        <button class="choose-name-btn">Who's it gonna be?</button>
+        <h2 class="selected-name"></h2>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
